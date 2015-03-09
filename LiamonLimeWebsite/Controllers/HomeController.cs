@@ -15,15 +15,21 @@ namespace LiamonLimeWebsite.Controllers
 
 		public ActionResult About()
 		{
-			ViewBag.Message = "Your application description page.";
+			ViewBag.Message = "Who am I and why you should care.";
 
 			return View();
 		}
 
 		public ActionResult Contact()
 		{
-			ViewBag.Message = "Your contact page.";
+			ViewBag.Message = "Liam Hanrahan.";
 
+			return View();
+		}
+
+		public ActionResult Blog()
+		{
+			//Show Wordpress Blog
 			return View();
 		}
 	}
