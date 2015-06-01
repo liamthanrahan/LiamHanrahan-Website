@@ -1,6 +1,12 @@
-﻿body {
+﻿html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 60px;
     background-image: url('../Images/oceanpattern.jpg');
     background-repeat: repeat;
 }
@@ -37,7 +43,18 @@ textarea {
     margin: 10px 0;
     padding: 1px 10px 5px 10px;
     background: white;
+    opacity: 0.9;
+    border: 1px groove white;
+    border-radius: 7px;
 }
+
+    .text-body h2 {
+        text-align: center;
+    }
+
+    .text-body p,ul {
+        text-align: left;
+    }
 
 #left-column {
     margin: 1vw 5px;
@@ -64,8 +81,12 @@ textarea {
 }
 
 footer {
-    color: white;
+    color: #cccccc;
+    background-color: #222222;
     position: absolute;
     bottom: 0;
-    width: 88vw;
+    border-top: 1px solid black;
+    padding: 20px;
+    width: 100%;
+    height: 60px;
 }

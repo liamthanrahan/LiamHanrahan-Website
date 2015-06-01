@@ -15,14 +15,14 @@ namespace LiamonLimeWebsite.Controllers
 
 		public ActionResult About()
 		{
-			ViewBag.Message = "Who am I and why you should care.";
+			ViewBag.Message = "Who am I and why you should care";
 
 			return View();
 		}
 
 		public ActionResult Contact()
 		{
-			ViewBag.Message = "Liam Hanrahan.";
+			ViewBag.Message = "Liam Hanrahan";
 
 			return View();
 		}
