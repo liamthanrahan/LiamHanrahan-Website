@@ -34,6 +34,13 @@ namespace LiamonLimeWebsite.Controllers
 			return View();
 		}
 
+		public ActionResult Directory()
+		{
+			ViewBag.Message = "List of commonly used links";
+
+			return View();
+		}
+
 		public ActionResult Blog()
 		{
 			//Show Wordpress Blog

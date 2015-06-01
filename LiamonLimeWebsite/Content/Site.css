@@ -80,6 +80,15 @@ textarea {
     display: inline-block;
 }
 
+.directory li {
+    list-style: none;
+
+}
+
+    .directory li a {
+    color: greenyellow
+    }
+
 footer {
     color: #cccccc;
     background-color: #222222;
