@@ -2,24 +2,35 @@
     ViewBag.Title = "Home Page";
 }
 
-<div id="left-column" class="text-body">
-    <h2>@ViewBag.Title</h2>
-    <p>At the moment this is just a web site to practice my web development skills.</p>
-    <p>However over time it may become more.</p>
+<div id="left-column">
+    <div class ="text-body">
+        <h2>@ViewBag.Title</h2>
+        <p>At the moment this is just a web site to practice my web development skills.</p>
+        <p>However over time it may become more.</p>
+    </div>
+
+    <div class="text-body">
+        <h2>Current Projects</h2>
+        <ul>
+            <li>Razer comms plugin</li>
+            <li>CSS and layout configuration</li>
+            <li>CSHTML and MVC</li>
+        </ul>
+    </div>
 </div>
 
-<div id="middle-column" class="text-body">
+@*<div id="middle-column" class="text-body">
     <h2>Current Projects</h2>
     <ul>
         <li>Razer comms plugin</li>
         <li>CSS and layout configuration</li>
         <li>CSHTML and MVC</li>
     </ul>
-</div>
+</div>*@
 
-<div id="right-column">
+@*<div id="right-column">
     <iframe frameborder=0
             style="overflow:hidden; height:100%; width:100%;"
             scrolling="no"
             src="http://comms.razerzone.com/communities/chatpanel/?id=27647625d475c3b171c9389f741d2cca67924232"></iframe>
-</div>
+</div>*@

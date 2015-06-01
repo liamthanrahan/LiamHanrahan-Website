@@ -25,7 +25,8 @@
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Blog", "Blog", "Home")</li>
+                    <li>@Html.ActionLink("Razer Comms", "RazerComms", "Home")</li>
+                    @*<li>@Html.ActionLink("Blog", "Blog", "Home")</li>*@
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
@@ -33,8 +34,8 @@
     </div>
     <div class="container body-content">
         @RenderBody()
-        <hr />
         <footer>
+            <hr />
             <p>&copy; @DateTime.Now.Year - Liam Hanrahan</p>
         </footer>
     </div>

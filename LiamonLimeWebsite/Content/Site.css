@@ -29,12 +29,17 @@ textarea {
     max-width: 90vw;
 }
 
-.text-body{
-    padding: 5px 10px;
+.full-area {
+    height: 80vh;
+}
+
+.text-body {
+    margin: 10px 0;
+    padding: 1px 10px 5px 10px;
     background: white;
 }
 
-#left-column{
+#left-column {
     margin: 1vw 5px;
     width: 28vw;
     height: 85%;
@@ -42,14 +47,14 @@ textarea {
     display: inline-block;
 }
 
-#middle-column{
+#middle-column {
     margin: 1vw 5px;
     width: 28vw;
     height: 85%;
     display: inline-block;
 }
 
-#right-column{
+#right-column {
     margin: 1vw 5px;
     width: 28vw;
     height: 85%;
@@ -58,9 +63,9 @@ textarea {
     display: inline-block;
 }
 
-footer{
+footer {
     color: white;
     position: absolute;
     bottom: 0;
-    width: 86vw;
+    width: 88vw;
 }

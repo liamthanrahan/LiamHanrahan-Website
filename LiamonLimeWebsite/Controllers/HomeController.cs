@@ -27,6 +27,13 @@ namespace LiamonLimeWebsite.Controllers
 			return View();
 		}
 
+		public ActionResult RazerComms()
+		{
+			ViewBag.Message = "Send in the clowns.";
+
+			return View();
+		}
+
 		public ActionResult Blog()
 		{
 			//Show Wordpress Blog
